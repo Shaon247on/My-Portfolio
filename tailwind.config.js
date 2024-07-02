@@ -4,7 +4,12 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'night': "url('/src/assets/Dark-bg.gif')",
+        'winter': "url('https://i.ibb.co/56CR3Wy/light-bg.gif')",
+      }
+    },
   },
   plugins: [require('daisyui')],
   daisyui: {

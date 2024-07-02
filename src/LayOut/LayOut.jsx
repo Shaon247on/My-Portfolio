@@ -5,9 +5,13 @@ import Footer from "../Components/Footer/Footer";
 
 const LayOut = () => {
     return (
-        <div className="container mx-auto">
-            <NavBar></NavBar>
+        <div>
+            <div className="fixed w-full px-16 z-20">
+                <NavBar></NavBar>
+            </div>
+            <div className="z-10 pt-[80px]">
             <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );

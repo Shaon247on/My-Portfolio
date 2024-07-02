@@ -1,15 +1,10 @@
 import { NavLink } from "react-router-dom";
 import '../NavBar/Style.css'
-import { useEffect, useState } from "react";
+import { useContext } from "react";
+import { ProviderContext } from "../../Provider/Provider";
 const NavBar = () => {
-    const [theme, setTheme] = useState('winter')
-
-    useEffect(()=>{
-        localStorage.setItem('theme', theme)
-        const localTheme = localStorage.getItem('theme')
-        document.querySelector('html').setAttribute('data-theme', localTheme)
-    },[theme])
-
+    
+    const {setTheme, theme} = useContext(ProviderContext)
     const handleToggle =(e)=>{
         console.log(e.target.value);
         if(e.target.checked){
@@ -35,7 +30,7 @@ const NavBar = () => {
             </NavLink>
         </li>
         <li>
-            <NavLink to="work" smooth={true} duration={500} className="cursor-pointer">
+            <NavLink  to="work" smooth={true} duration={500} className="cursor-pointer">
                 Work
             </NavLink>
         </li>
@@ -52,7 +47,7 @@ const NavBar = () => {
 
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 px-11 py-2">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -76,7 +71,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <NavLink to='/'>
-                    <img src="https://i.ibb.co/yh6Hpd7/Solidarity.png" alt="" className="hover:scale-105 duration-300 rounded-full w-24 h-24" />
+                    <img src={`${theme === 'winter'? 'https://i.ibb.co/yh6Hpd7/Solidarity.png': 'https://i.ibb.co/Qbs9whn/Dark-logo.png'}`} alt="" className="hover:scale-105 duration-300 rounded-full w-16 h-16" />
                 </ NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
