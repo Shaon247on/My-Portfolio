@@ -1,4 +1,6 @@
 import Banner from '../Banner/Banner';
+import Blogs from '../Blogs/Blogs';
+import Contact from '../Contact/Contact';
 import Experience from '../Experience/Experience';
 import Skills from '../Skills/Skills';
 import Work from '../Work/Work';
@@ -17,6 +19,12 @@ const Home = () => {
             </div>
             <div className='h-screen'>
                 <Work></Work>
+            </div>
+            <div className='h-screen'>
+                <Blogs></Blogs>
+            </div>
+            <div className='h-screen'>
+                <Contact></Contact>
             </div>
         </div>
     );
