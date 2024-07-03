@@ -7,6 +7,7 @@ import Skills from "../Components/Home/Skills/Skills";
 import Experience from "../Components/Home/Experience/Experience";
 import Contact from "../Components/Home/Contact/Contact";
 import Blogs from "../Components/Home/Blogs/Blogs";
+import WorkDetails from "../Components/Home/Work/WorkDetails";
 
   const router = createBrowserRouter([
     {
@@ -40,6 +41,11 @@ import Blogs from "../Components/Home/Blogs/Blogs";
         {
             path: "/blogs",
             element:<Blogs></Blogs>
+        },
+        {
+            path: "/work/:id",
+            element:<WorkDetails></WorkDetails>,
+            loader: ()=> fetch('/data.json')
         },
       ]
     },

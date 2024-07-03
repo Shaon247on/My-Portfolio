@@ -9,23 +9,23 @@ import Work from '../Work/Work';
 const Home = () => {
     return (
         <div>
-            <div className='  mb-40'>
+            <div className='  '>
                 <Banner></Banner>
             </div>
-            <div className='h-screen'>
+            <div className='mt-40'>
                 <Skills></Skills>
             </div>
-            <div id='work' className=''>
+            <div id='work' className='mt-40 mb-[400px]'>
                 <Work></Work>
             </div>
-            <div className='h-screen'>
+            <div className=''>
                 <Experience></Experience>
-                <Cover></Cover>
+                {/* <Cover></Cover> */}
             </div>
-            <div className='h-screen'>
+            <div className='mt-40'>
                 <Blogs></Blogs>
             </div>
-            <div className='h-screen'>
+            <div className='mt-40'>
                 <Contact></Contact>
             </div>
         </div>

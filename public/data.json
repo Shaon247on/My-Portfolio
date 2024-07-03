@@ -1,5 +1,6 @@
 [
     {
+      "id":1,
       "image": "https://i.ibb.co/kML8qfq/Book-Hive-Home.png",
       "subImage": [
         "https://i.ibb.co/60jVhS6/Book-Hive-Cards.png",
@@ -9,16 +10,17 @@
         "https://i.ibb.co/pnTmYvZ/Book-Hive-Pages.png"
       ],
       "name": "Book Hive",
-      "category": "Web Development",
+      "category": "E-Book",
       "startDate": "2024-02-15",
       "liveLink":"https://aminul-book-review.surge.sh/",
       "githubLink":"https://github.com/Shaon247on/BOOK-HIVE-A8?tab=readme-ov-file",      
       "client": "Programming Hero",
       "designer": "My Self",
-      "projectDescription": "Discover a world of books with our engaging ebook website designed to captivate readers. Users can effortlessly add books to their 'Wishlist' and 'Bookmark' sections, making it easy to manage their reading lists. The 'My List' page features dedicated tabs for Wishlist and Bookmark, and a 'Pages to Read' tab to track reading progress. Dive into a seamless reading experience tailored to inspire and motivate you to read more. Join us and explore endless literary adventures.",
-      "ourApproach": "Our ebook website is meticulously crafted to attract and retain users by providing an intuitive and enjoyable reading experience. With features like Wishlist and Bookmark, users can easily organize their reading preferences. The 'Pages to Read' tab offers a personalized reading tracker, motivating users to read more. Designed by me, this website for Programming Hero combines functionality and aesthetics to create an irresistible platform for book enthusiasts, ensuring they keep coming back for more."
+      "projectDescription": "Discover a world of books with our engaging ebook website designed to captivate readers. Users can effortlessly add books to their 'Wishlist' and 'Bookmark' sections, making it easy to manage their reading lists. The 'Listed Books' page features dedicated tabs for Wishlist and Bookmark, and a 'Pages to Read' tab to track reading progress. Dive into a seamless reading experience tailored to inspire and motivate you to read more. Join us and explore endless literary adventures.",
+      "ourApproach": "Our ebook website is meticulously crafted to attract and retain users by providing an intuitive and enjoyable reading experience. With features like Wishlist and Bookmark, users can eas ily organize their reading preferences. The 'Pages to Read' tab offers a personalized reading tracker, motivating users to read more. Designed by me, this website for Programming Hero combines functionality and aesthetics to create an irresistible platform for book enthusiasts, ensuring they keep coming back for more."
     },
     {
+      "id":2,
       "image": "https://i.ibb.co/kh37DQ5/Realty-Nest-Home.png",
       "subImage": [
         "https://i.ibb.co/b74MTd4/Realty-Nest-Best-Offer.png",
@@ -28,17 +30,17 @@
         "https://i.ibb.co/442gVVG/Realty-Nest-Login.png"
       ],
       "name": "Realty Nest",
-      "category": "Web Development",
+      "category": "Real Estate",
       "startDate": "2024-03-20",
-      "liveLink":"",
-      "githubLink":"",
-      "githubServer":"",
+      "liveLink":"https://aminul-assignment-09.surge.sh/",
+      "githubLink":"https://github.com/Shaon247on/Realty-Nest-A9?tab=readme-ov-file",      
       "client": "Programming Hero",
       "designer": "My Self",
-      "projectDescription": "Development of a mobile application for Client B, with a focus on intuitive design and seamless functionality.",
-      "ourApproach": "We used React Native for cross-platform compatibility and integrated various APIs to enhance the app's features."
+      "projectDescription": "Explore a diverse range of housing options with our user-friendly real estate website. Whether you're looking for Student Housing, Vacation Rentals, Townhouses, Apartments, Senior Living Communities, or Single-Family Homes, we've got you covered. Simply click the 'View Property' button on any listing to access detailed information, including rent or selling prices and pinned map locations. Our platform is designed to provide a seamless browsing experience, making it easy to find your perfect home.",
+      "ourApproach": "Our real estate website is designed with the user in mind, offering an intuitive interface and comprehensive property details. By categorizing listings into six distinct types, we help users quickly find options that meet their needs. Each property page provides in-depth information and a pinned map location, ensuring users have all the details they need to make informed decisions. This user-centric design, combined with detailed listings, ensures that the website is both attractive and functional, meeting the client's goal of creating a helpful and engaging platform."
     },
     {
+      "id":3,
       "image": "https://i.ibb.co/cgzr6Mc/Reflect-Rader-Home.png",
       "subImage": [
         "https://i.ibb.co/ZNqWvn0/Reflect-Rader-About.png",
@@ -48,17 +50,18 @@
         "https://i.ibb.co/HgsXPBn/Reflect-Rader-Slider.png"
       ],
       "name": "Reflect Rader",
-      "category": "Web Development",
+      "category": "Public Community",
       "startDate": "2024-04-10",
-      "liveLink":"",
-      "githubLink":"",
-      "githubServer":"",
+      "liveLink":"https://assignment-11-battlefield.web.app/",
+      "githubLink":"https://github.com/Shaon247on/Reflect-Radar-A11",
+      "githubServer":"https://github.com/Shaon247on/Reflect-Radar-A11-Server",
       "client": "Programming Hero",
       "designer": "My Self",
-      "projectDescription": "A UI/UX design project for Client C, aimed at improving the user experience of their existing web application.",
+      "projectDescription": "Our community website is designed to attract users by providing a collaborative space for sharing and receiving product advice. By allowing users to post product issues and seek alternatives, we encourage active participation and knowledge exchange. Detailed recommendations with brand names and prices enhance the decision-making process. The 'My Recommendations' and 'Recommendations For Me' sections help users track their interactions, creating a sense of accomplishment and engagement. This user-driven approach ensures a valuable and interactive experience, meeting the client's goal of building a knowledgeable and supportive community.",
       "ourApproach": "We conducted user research and usability testing to identify pain points and implemented a new design that enhanced user satisfaction and engagement."
     },
     {
+      "id":4,
       "image": "https://i.ibb.co/7gqtMf8/Victory-Vault-Home.png",
       "subImage": [
         "https://i.ibb.co/TcxTrdq/Victory-Vault-Cards.png",
@@ -68,15 +71,15 @@
         "https://i.ibb.co/rQK8Knc/Victory-Vault-Dashboard.png"
       ],
       "name": "Victory Vault",
-      "category": "Web Development",
+      "category": "Contest Platforms",
       "startDate": "2024-06-01",
-      "liveLink":"",
-      "githubLink":"",
-      "githubServer":"",
+      "liveLink":"https://assignment-12-supremacy.web.app/",
+      "githubLink":"https://github.com/Shaon247on/Victory-Vault-A12",
+      "githubServer":"https://github.com/Shaon247on/Victory-Vault-A12-Server",
       "client": "Programming Hero",
       "designer": "My Self",
-      "projectDescription": "An e-commerce development project for Client D, focusing on creating a secure and efficient online shopping experience.",
-      "ourApproach": "We built the platform using Node.js and MongoDB for backend services and React for the frontend, ensuring a smooth and responsive user experience."
+      "projectDescription": "Our contest website offers an engaging platform where users can participate in various contests by submitting entries and paying a participation fee. Users can win exciting prizes, with only one winner per contest. Contest Creators add and manage contests, while Admins oversee user roles and approve contests for publication. The user-friendly dashboard allows users to track payment history, contest status, and performance with a pie chart. Each user has a profile page to update their name and profile photo, ensuring a personalized experience.",
+      "ourApproach": "Our website is designed to attract users by offering a seamless and engaging contest participation experience. The user-friendly interface and well-structured dashboard make it easy for users to navigate and track their activities. Contest Creators and Admins have dedicated controls to manage contests and user roles efficiently. The inclusion of a profile page for all users enhances personalization, while the performance tracking features motivate users to participate more. This comprehensive and intuitive design ensures the client's goal of creating an attractive and well-controlled contest platform is met."
     }
   ]
   
