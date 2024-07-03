@@ -14,11 +14,11 @@ const Home = () => {
             <div className='h-screen'>
                 <Skills></Skills>
             </div>
-            <div className='h-screen'>
-                <Experience></Experience>
-            </div>
             <div id='work' className='h-screen'>
                 <Work></Work>
+            </div>
+            <div className='h-screen'>
+                <Experience></Experience>
             </div>
             <div className='h-screen'>
                 <Blogs></Blogs>

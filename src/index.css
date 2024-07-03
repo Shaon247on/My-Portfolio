@@ -66,6 +66,11 @@ body{
 .skill-card{
     box-shadow: -6px 6px 20px #00000070;
     transition: .3s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;    
 }
 
 .skill-card img{
@@ -83,4 +88,63 @@ body{
 .skill-card:hover ~ .skill-card{
     transform: translateX(60px);
 
+}
+
+.card_details{
+    opacity: 0;
+    transition: opacity 1s 1s;
+}
+
+.card_body:hover .card_details{
+    animation: show-data 1s forwards;
+    opacity: 1;
+    transition: opacity .3s;
+}
+.card_body:hover{
+    animation: remove-overflow 2s forwards;
+}
+
+.card_body:not(:hover){
+    animation: show-overflow 2s forwards;
+}
+
+.card_body:not(:hover) .card_details{
+    animation: remove-data 1s forwards;
+}
+
+@keyframes show-data {
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(-35px);
+    }
+}
+
+@keyframes remove-overflow{
+    to{
+        overflow: inherit;
+    }
+}
+
+@keyframes remove-data{
+    0%{
+        transform: translateY(-35px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes show-overflow {
+    0%{
+        overflow: initial;
+        pointer-events: none;
+    }
+    50%{
+        overflow: hidden;
+    }
 }
