@@ -14,7 +14,7 @@ const Home = () => {
             <div className='h-screen'>
                 <Skills></Skills>
             </div>
-            <div id='work' className='h-screen'>
+            <div id='work' className=''>
                 <Work></Work>
             </div>
             <div className='h-screen'>
