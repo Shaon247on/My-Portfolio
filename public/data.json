@@ -1,0 +1,82 @@
+[
+    {
+      "image": "https://i.ibb.co/kML8qfq/Book-Hive-Home.png",
+      "subImage": [
+        "https://i.ibb.co/60jVhS6/Book-Hive-Cards.png",
+        "https://i.ibb.co/dBd10sd/Book-Hive-Book-Mark.png",
+        "https://i.ibb.co/rfNW8Pv/Book-Hive-Card-Details.png",
+        "https://i.ibb.co/52gnNh0/Book-Hive-FAQ.png",
+        "https://i.ibb.co/pnTmYvZ/Book-Hive-Pages.png"
+      ],
+      "name": "Book Hive",
+      "category": "Web Development",
+      "startDate": "2024-02-15",
+      "liveLink":"https://aminul-book-review.surge.sh/",
+      "githubLink":"https://github.com/Shaon247on/BOOK-HIVE-A8?tab=readme-ov-file",      
+      "client": "Programming Hero",
+      "designer": "My Self",
+      "projectDescription": "Discover a world of books with our engaging ebook website designed to captivate readers. Users can effortlessly add books to their 'Wishlist' and 'Bookmark' sections, making it easy to manage their reading lists. The 'My List' page features dedicated tabs for Wishlist and Bookmark, and a 'Pages to Read' tab to track reading progress. Dive into a seamless reading experience tailored to inspire and motivate you to read more. Join us and explore endless literary adventures.",
+      "ourApproach": "Our ebook website is meticulously crafted to attract and retain users by providing an intuitive and enjoyable reading experience. With features like Wishlist and Bookmark, users can easily organize their reading preferences. The 'Pages to Read' tab offers a personalized reading tracker, motivating users to read more. Designed by me, this website for Programming Hero combines functionality and aesthetics to create an irresistible platform for book enthusiasts, ensuring they keep coming back for more."
+    },
+    {
+      "image": "https://i.ibb.co/kh37DQ5/Realty-Nest-Home.png",
+      "subImage": [
+        "https://i.ibb.co/b74MTd4/Realty-Nest-Best-Offer.png",
+        "https://i.ibb.co/pRV8jMb/Realty-Nest-Card-Details.png",
+        "https://i.ibb.co/hfyBjF7/Realty-Nest-Card-Details2.png",
+        "https://i.ibb.co/jgXns0J/Realty-Nest-Cards.png",
+        "https://i.ibb.co/442gVVG/Realty-Nest-Login.png"
+      ],
+      "name": "Realty Nest",
+      "category": "Web Development",
+      "startDate": "2024-03-20",
+      "liveLink":"",
+      "githubLink":"",
+      "githubServer":"",
+      "client": "Programming Hero",
+      "designer": "My Self",
+      "projectDescription": "Development of a mobile application for Client B, with a focus on intuitive design and seamless functionality.",
+      "ourApproach": "We used React Native for cross-platform compatibility and integrated various APIs to enhance the app's features."
+    },
+    {
+      "image": "https://i.ibb.co/cgzr6Mc/Reflect-Rader-Home.png",
+      "subImage": [
+        "https://i.ibb.co/ZNqWvn0/Reflect-Rader-About.png",
+        "https://i.ibb.co/HHx65YV/Reflect-Rader-Cards.png",
+        "https://i.ibb.co/bX3kGx2/Reflect-Rader-Contact.png",
+        "https://i.ibb.co/rF6nCLZ/Reflect-Rader-Login.png",
+        "https://i.ibb.co/HgsXPBn/Reflect-Rader-Slider.png"
+      ],
+      "name": "Reflect Rader",
+      "category": "Web Development",
+      "startDate": "2024-04-10",
+      "liveLink":"",
+      "githubLink":"",
+      "githubServer":"",
+      "client": "Programming Hero",
+      "designer": "My Self",
+      "projectDescription": "A UI/UX design project for Client C, aimed at improving the user experience of their existing web application.",
+      "ourApproach": "We conducted user research and usability testing to identify pain points and implemented a new design that enhanced user satisfaction and engagement."
+    },
+    {
+      "image": "https://i.ibb.co/7gqtMf8/Victory-Vault-Home.png",
+      "subImage": [
+        "https://i.ibb.co/TcxTrdq/Victory-Vault-Cards.png",
+        "https://i.ibb.co/mcfgTjS/Victory-Vault-Card-Details.png",
+        "https://i.ibb.co/ZVwr0xH/Victory-Vault-Creator-Slider.png",
+        "https://i.ibb.co/rQK8Knc/Victory-Vault-Dashboard.png",
+        "https://i.ibb.co/rQK8Knc/Victory-Vault-Dashboard.png"
+      ],
+      "name": "Victory Vault",
+      "category": "Web Development",
+      "startDate": "2024-06-01",
+      "liveLink":"",
+      "githubLink":"",
+      "githubServer":"",
+      "client": "Programming Hero",
+      "designer": "My Self",
+      "projectDescription": "An e-commerce development project for Client D, focusing on creating a secure and efficient online shopping experience.",
+      "ourApproach": "We built the platform using Node.js and MongoDB for backend services and React for the frontend, ensuring a smooth and responsive user experience."
+    }
+  ]
+  

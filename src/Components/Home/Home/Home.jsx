@@ -1,3 +1,4 @@
+import Cover from '../../Shared/Cover';
 import Banner from '../Banner/Banner';
 import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
@@ -19,6 +20,7 @@ const Home = () => {
             </div>
             <div className='h-screen'>
                 <Experience></Experience>
+                <Cover></Cover>
             </div>
             <div className='h-screen'>
                 <Blogs></Blogs>

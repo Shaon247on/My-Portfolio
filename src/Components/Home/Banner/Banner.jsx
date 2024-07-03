@@ -8,7 +8,7 @@ import Button from "../../Shared/Button";
 const Banner = () => {
     const { theme } = useContext(ProviderContext)
     return (
-        <div className={`${theme === 'winter' ? "bg-winter" : "bg-night"} bg-no-repeat bg-cover pt-6`}>
+        <div className={`${theme === 'winter' ? "bg-winter" : "bg-synthwave"} bg-no-repeat bg-cover pt-6`}>
             <div className="md:h-screen flex flex-col-reverse md:flex-row gap-12 items-center">
                 <div className="w-[300px] md:w-[400px] lg:w-[600px] ml-2 md:ml-12 lg:ml-28">
                     <h1 className="text-2xl lg:text-3xl font-bold text-[#2a1454] dark:text-[#dfdbe0]">I am Shaon</h1>

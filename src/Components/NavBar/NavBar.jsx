@@ -8,7 +8,7 @@ const NavBar = () => {
     const handleToggle =(e)=>{
         console.log(e.target.value);
         if(e.target.checked){
-            setTheme('night')
+            setTheme('synthwave')
         }else{
             setTheme('winter')
         }
