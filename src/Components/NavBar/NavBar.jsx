@@ -79,7 +79,7 @@ const NavBar = () => {
                     {navLinks}
                 </ul>
             </div>
-            <div className="navbar-end justify-center md:justify-end">
+            <div className="navbar-end justify-end">
                 <label className="swap swap-rotate">
                     {/* this hidden checkbox controls the state */}
                     <input type="checkbox" className="theme-controller" value="synthwave" onClick={handleToggle}/>

@@ -8,7 +8,7 @@ import Work from '../Work/Work';
 const Home = () => {
     return (
         <div>
-            <div className='  mb-56'>
+            <div className='  mb-40'>
                 <Banner></Banner>
             </div>
             <div className='h-screen'>

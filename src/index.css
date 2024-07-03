@@ -19,3 +19,68 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.animation-hover{
+    background-image: linear-gradient(to left, #311860, #864ff5, #311860);
+    background-size: 200%;
+    transition: 0.6s;
+}
+.animation-hover:hover{
+    background-position: right;
+}
+
+.borderEffect::after{
+    content: '';
+    position: absolute;
+    left: 0px;  
+    bottom: -4px; 
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, #30185e, #864ff5);
+    border-radius: 40px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+.borderEffect:hover:after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.autoScroll{
+    animation: autoScrollAnimation both;
+    animation-timeline: view(70% 5%);
+}
+
+@keyframes autoScrollAnimation {
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.7);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.skill-card{
+    box-shadow: -6px 6px 20px #00000070;
+    transition: .3s linear;
+}
+
+.skill-card img{
+    width: 100%;
+}
+
+.skill-card:not(:first-child){
+    margin-left: -50px;
+}
+
+.skill-card:hover{
+    transform: translateY(-24px);
+}
+
+.skill-card:hover ~ .skill-card{
+    transform: translateX(60px);
+
+}

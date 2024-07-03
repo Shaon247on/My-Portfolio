@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { ProviderContext } from "../../../Provider/Provider";
 import photo from '../../../assets/Shawon1 (2).jpg'
 import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import Button from "../../Shared/Button";
 
 
 const Banner = () => {
@@ -16,7 +17,7 @@ const Banner = () => {
                     </div>
                     <p className="md:text-base lg:text-[20px] mb-4 lg:mb-10">Junior web developer skilled in creating responsive websites using HTML, CSS, JavaScript, and React. Passionate about crafting user-friendly and visually appealing web experiences</p>
                     <div className="flex flex-col lg:flex-row items-start md:items-center gap-4 lg:gap-12">
-                        <button className="px-6 py-3 border-2 border-[#8851f7] rounded-full bg-none hover:bg-[#8851f7] duration-300 text-[#8851f7] font-semibold hover:text-white"><a href="   -Resume.pdf" download>Download CV</a></button>
+                        <Button text='Download CV' className="px-6 py-3 border-2 border-[#8851f7] rounded-full bg-none hover:bg-[#8851f7] duration-300 text-[#8851f7] font-semibold hover:text-white"><a href="   -Resume.pdf" download></a></Button>
                         <div className="flex items-center gap-4">
                             <div className="border-2 border-[#8851f7] p-2 rounded-full bg-none hover:bg-[#8851f7] duration-300 ease-out group">
                                 <a href="https://www.facebook.com/profile.php?id=100007517474589" target="_blank">
@@ -35,7 +36,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-center rounded-3xl  shadow-none hover:shadow-[0 4px 6px rgb(136,81,247)] w-[560px]">
+                <div className="flex items-center justify-center rounded-3xl  shadow-none hover:shadow-[0 4px 6px rgb(136,81,247)] md:w-[560px]">
                     <img src={photo} alt="" className="w-[250px] md:w-[310px] lg:w-[360px] md:h-[350px] lg:h-[440px] border-[0px] hover:border-[4px] border-[#8851f7] rounded-3xl rotate-6 hover:rotate-0 duration-300" />
                 </div>
             </div>
