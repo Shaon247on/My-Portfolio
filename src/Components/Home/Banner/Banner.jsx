@@ -41,18 +41,18 @@ const Banner = () => {
                     <img src={photo} alt="" className="w-[250px] md:w-[310px] lg:w-[360px] md:h-[350px] lg:h-[440px] border-[0px] hover:border-[4px] border-[#8851f7] rounded-3xl rotate-6 hover:rotate-0 duration-300" />
                 </div>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 px-8 md:px-20 text-[#8851f7] dark:text-white mt-6 md:mt-6 lg:mt-0 pb-8">
+            <div className="grid gap-3 md:gap-0 grid-cols-2 md:grid-cols-3 px-8 md:px-20 text-[#8851f7] dark:text-white mt-6 md:mt-6 lg:mt-0 pb-8">
                 <div className="flex items-center gap-3 col-span-1 ">
-                    <h1 className=" text-7xl font-semibold">6</h1>
-                    <p className="text-lg font-medium">Months of<br /> Experience</p>
+                    <h1 className=" text-3xl md:text-7xl font-semibold">6</h1>
+                    <p className="text-base md:text-lg font-medium">Months of<br /> Experience</p>
                 </div>
                 <div className="flex items-center gap-3 col-span-1">
-                    <h1 className=" text-7xl font-semibold">5+</h1>
-                    <p className="text-lg font-medium">Project<br /> Completed</p>
+                    <h1 className=" text-3xl md:text-7xl font-semibold">5+</h1>
+                    <p className="text-base md:text-lg font-medium">Project<br /> Completed</p>
                 </div>
                 <div className="flex items-center gap-3 col-span-2 md:col-span-1 sm:justify-center">
-                    <h1 className=" text-7xl font-semibold">2</h1>
-                    <p className="text-lg font-medium">Happy<br /> Clients</p>
+                    <h1 className=" text-3xl md:text-7xl font-semibold">2</h1>
+                    <p className="text-base md:text-lg font-medium">Happy<br /> Clients</p>
                 </div>
 
             </div>

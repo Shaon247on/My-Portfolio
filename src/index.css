@@ -47,6 +47,24 @@ body{
     transform: scaleX(1);
 }
 
+.borderEffectNav::after{
+    content: '';
+    position: absolute;
+    left: 0px;  
+    bottom: -40px; 
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, #30185e, #864ff5);
+    border-radius: 40px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+.borderEffectNav:hover:after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
 .autoScroll{
     animation: autoScrollAnimation both;
     animation-timeline: view(70% 5%);
@@ -200,19 +218,19 @@ body{
 
 @media screen and (min-width: 340px){
     .container{
-        margin-inline: 1rem;
+        margin-inline: 0rem;
     }
     .card__data{
         width: 250px;
         padding: 1rem;
-    }
+    }    
 }
 
 /* medium device */
 @media screen and (min-width: 768px){
     .card__container{
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 1.5rem;
+        column-gap: 1.5rem;        
     }
 }
 

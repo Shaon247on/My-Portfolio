@@ -18,9 +18,9 @@ const Home = () => {
             <div id='work' className='mt-40'>
                 <Work></Work>
             </div>
-            <div className='mt-40'>
-                <Blogs></Blogs>
-            </div>
+            {/* <div className='mt-40'>
+                <Blogs></Blogs>  ==> It will be added later.
+            </div> */}
             <div className='pt-16'>
                 <Experience></Experience>
                 {/* <Cover></Cover> */}
