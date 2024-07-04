@@ -1,8 +1,8 @@
 
-const Button = ({text, func}) => {
+const Button = ({text, func, icon}) => {
     return (
         <button onClick={func} className='px-7 py-3 animation-hover rounded-xl font-semibold text-white'>
-            {text}
+            {text} {icon}
         </button>
     );
 };

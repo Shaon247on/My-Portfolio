@@ -7,10 +7,10 @@ import { TbSettingsCode } from "react-icons/tb";
 
 const Experience = () => {
     return (
-        <div className="flex flex-col md:flex-row gap-10 items-center justify-around mx-10 mt-40">
-            <div>
+        <div className="flex flex-col lg:flex-row gap-10 items-center justify-around mx-10">
+            <div className="autoScroll">
                 <div className="flex items-center justify-center">
-                    <LuGraduationCap className="text-purple-500 text-[70px] -mr-12 -mt-5"></LuGraduationCap>
+                    <LuGraduationCap className="text-purple-500 text-[70px] -mr-12 -mt-5 autoScroll"></LuGraduationCap>
                     <Title
                         title='My Education'
                     ></Title>
@@ -21,9 +21,9 @@ const Experience = () => {
                     <p className="text-base text-[#140c1c] group-hover:text-white duration-300 dark:text-white font-medium">Tongi Govn College and University, Gazipur.</p>
                 </div>
             </div>
-            <div>
+            <div className="autoScroll">
                 <div className="flex items-center justify-center">
-                    <TbSettingsCode className="text-purple-500 text-[55px] -mr-8 -mt-5"></TbSettingsCode>
+                    <TbSettingsCode className="text-purple-500 text-[55px] -mr-8 -mt-5 autoScroll"></TbSettingsCode>
                     <Title
                         title='My Experience'
                     ></Title>

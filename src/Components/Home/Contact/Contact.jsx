@@ -40,7 +40,7 @@ const Contact = () => {
                     title='Contact'></Title>
             </div>
             <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2">
-                <div className="py-6 md:py-0 md:px-6">
+                <div className="py-6 md:py-0 md:px-6 autoScrollLeft">
                     <h1 className="text-4xl font-bold font-playfair text-gradient dark:dark-text-gradient ">Get in touch</h1>
                     <p className="pt-2 pb-4 text-black dark:text-white">Fill in the form to start a conversation</p>
                     <div className="space-y-4">
@@ -80,7 +80,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-3 md:py-0 md:px-6">
+                <form ref={form} onSubmit={sendEmail} className="autoScrollRight flex flex-col space-y-3 md:py-0 md:px-6">
                     <label className="text-black dark:text-white text-base font-medium">Name</label>
                     <input placeholder="Your Name" className="block w-full px-3 py-2 border-b-[#7f4ae9] border-b placeholder-[#7f4ae9] focus:placeholder-transparent focus:border-b-[#7f4ae9] duration-150 focus:border-b-4 hover:border-b-[#7f4ae9] hover:border-b-4 outline-none bg-transparent" type="text" name="user_name" />
 

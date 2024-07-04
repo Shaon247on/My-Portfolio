@@ -81,6 +81,38 @@ body{
     }
 }
 
+.autoScrollLeft{
+    animation: autoScrollAnimationLeft both;
+    animation-timeline: view(100% 10%);
+}
+
+@keyframes autoScrollAnimationLeft {
+    from{
+        opacity: 0;
+        transform: translateX(-100px) scale(0.7);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+.autoScrollRight{
+    animation: autoScrollAnimationRight both;
+    animation-timeline: view(100% 10%);
+}
+
+@keyframes autoScrollAnimationRight {
+    from{
+        opacity: 0;
+        transform: translateX(100px) scale(0.7);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
 .skill-card{
     box-shadow: -6px 6px 20px #00000070;
     transition: .3s linear;

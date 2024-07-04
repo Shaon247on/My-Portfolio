@@ -14,7 +14,7 @@ const Work = () => {
     return (
         <div>
             <Title title='My Recent Works' subTitle="Showcasing my latest projects where creativity meets functionality. Discover the innovative web solutions I've crafted for various clients."></Title>
-            <div className="container">
+            <div className="container autoScroll">
                 <div className="card__container grid grid-cols-1 md:grid-cols-2 gap-16">
 
                     {

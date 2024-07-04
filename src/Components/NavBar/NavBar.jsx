@@ -39,11 +39,11 @@ const NavBar = () => {
                 Contact Us
             </NavLink>
         </li>
-        <li className="text-black dark:text-white">
+        {/* <li className="text-black dark:text-white">
             <NavLink to="blogs" smooth={true} duration={500} className="cursor-pointer">
                 Blogs
             </NavLink>
-        </li>
+        </li> */}
 
     </>
     return (
@@ -53,7 +53,7 @@ const NavBar = () => {
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
+                            className="h-5 w-5 text-black dark:text-white"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -86,7 +86,7 @@ const NavBar = () => {
 
                     {/* sun icon */}
                     <svg
-                        className="swap-off h-10 w-10 fill-current"
+                        className="swap-off h-10 w-10 fill-current text-black"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24">
                         <path

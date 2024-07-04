@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import Cover from "../../Shared/Cover";
 import Button from "../../Shared/Button";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { RiExternalLinkFill } from "react-icons/ri";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -24,7 +25,8 @@ const WorkDetails = () => {
     const _id = parseInt(id)
     const work = works.find(prop => prop.id === _id)
     console.log(work, typeof _id);
-    const { name, image, projectDescription, ourApproach, category, startDate, client, designer, subImage } = work
+    const { name, image, projectDescription, ourApproach, category, startDate, client, designer, subImage, liveLink, githubLink, githubServer } = work
+    console.log(githubServer);
     return (
         <div className="sora">
             <Cover
@@ -37,9 +39,22 @@ const WorkDetails = () => {
                 <div className="py-8 px-5 space-y-3">
                     <h1 className=" text-5xl font-bold">{name}</h1>
                     <p className="lg:w-[600px]">{ourApproach.slice(0, 130)}...</p>
-                    <Button
-                        text='Live Preview'
-                    ></Button>
+                    <div className="flex flex-col md:flex-row gap-5 md:gap items-start md:items-center">
+                        <button className="px-7 py-3 animation-hover rounded-xl font-semibold text-white flex items-center gap-2">
+                            <a href={liveLink} target="_blank">Live Preview </a>
+                            <RiExternalLinkFill className="text-base"></RiExternalLinkFill>
+                        </button>                        
+                        <button className="px-7 py-3 animation-hover rounded-xl font-semibold text-white flex items-center gap-2">
+                            <a href={githubLink} target="_blank">GitHub Repo </a>
+                            <RiExternalLinkFill className="text-base"></RiExternalLinkFill>
+                        </button>                        
+                        {
+                            work?.githubServer === ""? "": <button className="px-7 py-3 animation-hover rounded-xl font-semibold text-white flex items-center gap-2">
+                            <a href={work.githubServer} target="_blank">Github Server </a>
+                            <RiExternalLinkFill className="text-base"></RiExternalLinkFill>
+                        </button>
+                        }                       
+                    </div>
                 </div>
                 <div className="grid gap-7 py-8 md:grid-cols-2 md:grid-rows-2 h-full flex-grow">
                     <div>
@@ -65,7 +80,7 @@ const WorkDetails = () => {
                     slidesPerView={1}
                     spaceBetween={10}
                     centeredSlides={true}
-                    
+
                     autoplay={{
                         delay: 2000,
                         disableOnInteraction: false,
@@ -94,7 +109,7 @@ const WorkDetails = () => {
                         subImage.map(image =>
 
                             <SwiperSlide key={image} >
-                                <img src={image} alt="" className="rounded-lg"/>
+                                <img src={image} alt="" className="rounded-lg" />
                             </SwiperSlide>
 
                         )

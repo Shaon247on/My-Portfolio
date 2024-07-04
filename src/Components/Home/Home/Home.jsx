@@ -21,7 +21,7 @@ const Home = () => {
             {/* <div className='mt-40'>
                 <Blogs></Blogs>  ==> It will be added later.
             </div> */}
-            <div className='pt-16'>
+            <div className='mt-[500px]'>
                 <Experience></Experience>
                 {/* <Cover></Cover> */}
             </div>
