@@ -3,6 +3,8 @@ import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
 import Title from "../../Shared/Title";
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa6";
+
 
 const Contact = () => {
     const form = useRef()
@@ -61,6 +63,21 @@ const Contact = () => {
                             </svg>
                             <span className='text-black dark:text-white'>aminul007.ais@gmail.com</span>
                         </p>
+                        <div className="flex items-center gap-4">
+                            <div className="border-2 border-[#8851f7] p-2 rounded-full bg-none hover:bg-[#8851f7] duration-300 ease-out group">
+                                <a href="https://www.facebook.com/profile.php?id=100007517474589" target="_blank">
+                                    <FaFacebookF className="text-[#8851f7] group-hover:text-white duration-300 text-3xl"></FaFacebookF>
+                                </a>
+                            </div>
+                            <div className="border-2 border-[#8851f7] p-2 rounded-full bg-none hover:bg-[#8851f7] duration-300 ease-out group">
+                                <a href="https://github.com/Shaon247on" target="_blank">
+                                    <FaGithub className="text-[#8851f7] group-hover:text-white duration-300 text-3xl"></FaGithub>
+                                </a>
+                            </div>
+                            <div className="border-2 border-[#8851f7] p-2 rounded-full bg-none hover:bg-[#8851f7] duration-300 ease-out group">
+                                <a href="https://www.linkedin.com/in/md-aminul-islam-shaon-61198a208/" target="_blank"><FaLinkedinIn className="text-[#8851f7] group-hover:text-white duration-300 text-3xl"></FaLinkedinIn></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-3 md:py-0 md:px-6">

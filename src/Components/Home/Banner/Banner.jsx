@@ -3,6 +3,7 @@ import { ProviderContext } from "../../../Provider/Provider";
 import photo from '../../../assets/Shawon1 (2).jpg'
 import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import Button from "../../Shared/Button";
+import 'animate.css';   
 
 
 const Banner = () => {
@@ -11,11 +12,11 @@ const Banner = () => {
         <div className={`${theme === 'winter' ? "bg-winter" : "bg-night"} bg-no-repeat bg-cover pt-6`}>
             <div className="md:h-screen flex flex-col-reverse md:flex-row gap-12 items-center">
                 <div className="w-[300px] md:w-[400px] lg:w-[600px] ml-2 md:ml-12 lg:ml-28">
-                    <h1 className="text-2xl lg:text-3xl font-bold text-[#2a1454] dark:text-[#dfdbe0]">I am Shaon</h1>
+                    <h1 className="text-2xl lg:text-3xl font-bold text-[#2a1454] dark:text-[#dfdbe0] animate__animated animate__fadeIn animate__slow">I am Shaon</h1>
                     <div className={`${theme === 'winter' ? "text-gradient" : "dark-text-gradient"} my-1 md:my-3 lg:my-4`}>
-                        <h2 className="text-3xl lg:text-6xl font-bold">Full-Stake <br /> Web Developer</h2>
+                        <h2 className="text-3xl lg:text-6xl font-bold ">Full-Stake <br /> Web Developer</h2>
                     </div>
-                    <p className="md:text-base lg:text-[20px] mb-4 lg:mb-10">Junior web developer skilled in creating responsive websites using HTML, CSS, JavaScript, and React. Passionate about crafting user-friendly and visually appealing web experiences</p>
+                    <p className="animate__animated animate__fadeInLeft md:text-base lg:text-[20px] mb-4 lg:mb-10">Junior web developer skilled in creating responsive websites using HTML, CSS, JavaScript, and React. Passionate about crafting user-friendly and visually appealing web experiences</p>
                     <div className="flex flex-col lg:flex-row items-start md:items-center gap-4 lg:gap-12">
                         <Button text='Download CV' className="px-6 py-3 border-2 border-[#8851f7] rounded-full bg-none hover:bg-[#8851f7] duration-300 text-[#8851f7] font-semibold hover:text-white"><a href="   -Resume.pdf" download></a></Button>
                         <div className="flex items-center gap-4">
