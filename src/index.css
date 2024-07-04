@@ -5,7 +5,22 @@
 
 body{
     font-family: "Sora", sans-serif;
+    scroll-behavior: smooth;
 }
+
+.bgChange{
+    background-color: white;
+}
+
+.bgChange:hover{
+    transition: 1s;
+    background-color:rgba(90, 1, 90, 0.836);
+}
+.bgChange:not(:hover){
+    transition: 1s;
+    background-color:white;
+}
+
 
 .dark-text-gradient{       
     background: linear-gradient(to left, #f8f4fe, #8851f7);

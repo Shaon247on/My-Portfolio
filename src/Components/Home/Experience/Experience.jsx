@@ -15,7 +15,7 @@ const Experience = () => {
                         title='My Education'
                     ></Title>
                 </div>
-                <div className="pl-7 py-8  space-y-2 rounded-3xl bg-white hover:bg-gradient-to-r from-[#311860] to-[#864ff5] duration-300 dark:bg-[#140c1c] group">
+                <div className="pl-7 py-8 space-y-2 rounded-3xl  bg-white hover:bg-gradient-to-r from-[#311860] to-[#864ff5] duration-300 dark:bg-[#140c1c] group">
                     <h1 className="text-xl text-[#8750f7] group-hover:text-white duration-300 font-semibold">2018-2023</h1>
                     <h2 className="text-2xl text-[#140c1c] group-hover:text-white duration-300 dark:text-white font-bold uppercase">Honors in Accounting</h2>
                     <p className="text-base text-[#140c1c] group-hover:text-white duration-300 dark:text-white font-medium">Tongi Govn College and University, Gazipur.</p>
