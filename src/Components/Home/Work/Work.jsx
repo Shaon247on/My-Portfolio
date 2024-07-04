@@ -15,7 +15,7 @@ const Work = () => {
         <div>
             <Title title='My Recent Works' subTitle="Showcasing my latest projects where creativity meets functionality. Discover the innovative web solutions I've crafted for various clients."></Title>
             <div className="container">
-                <div className="cart__container grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="cart__container grid grid-cols-1 md:grid-cols-2 gap-16">
 
                     {
                         cards.map(card =>
