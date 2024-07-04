@@ -15,7 +15,7 @@ const Home = () => {
             <div className='mt-40'>
                 <Skills></Skills>
             </div>
-            <div id='work' className='mt-40 mb-[400px]'>
+            <div id='work' className='mt-40'>
                 <Work></Work>
             </div>
             <div className=''>

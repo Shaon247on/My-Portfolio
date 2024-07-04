@@ -9,7 +9,7 @@ const LayOut = () => {
             <div className="fixed w-full md:px-16 z-20">
                 <NavBar></NavBar>
             </div>
-            <div className="z-10 pt-[80px] mb-72">
+            <div className="z-10 pt-[80px] mb-10">
             <Outlet></Outlet>
             </div>
             <Footer></Footer>

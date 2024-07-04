@@ -8,38 +8,38 @@ const NavBar = () => {
     const handleToggle =(e)=>{
         console.log(e.target.value);
         if(e.target.checked){
-            setTheme('synthwave')
+            setTheme('night')
         }else{
             setTheme('winter')
         }
     }
     const navLinks = <>
-        <li>
+        <li className="text-black dark:text-white">
             <NavLink to="/" smooth={true} duration={500} className="cursor-pointer">
                 Home
             </NavLink>
         </li>
-        <li>
+        <li className="text-black dark:text-white">
             <NavLink to="skills" smooth={true} duration={500} className="cursor-pointer">
                 Skills
             </NavLink>
         </li>
-        <li>
+        <li className="text-black dark:text-white">
             <NavLink to="experience" smooth={true} duration={500} className="cursor-pointer">
                 Experience
             </NavLink>
         </li>
-        <li>
+        <li className="text-black dark:text-white">
             <NavLink  to="work" smooth={true} duration={500} className="cursor-pointer">
                 Work
             </NavLink>
         </li>
-        <li>
+        <li className="text-black dark:text-white">
             <NavLink to="contact" smooth={true} duration={500} className="cursor-pointer">
                 Contact Us
             </NavLink>
         </li>
-        <li className="color-gradient">
+        <li className="text-black dark:text-white">
             <NavLink to="blogs" smooth={true} duration={500} className="cursor-pointer">
                 Blogs
             </NavLink>
@@ -82,7 +82,7 @@ const NavBar = () => {
             <div className="navbar-end justify-end">
                 <label className="swap swap-rotate">
                     {/* this hidden checkbox controls the state */}
-                    <input type="checkbox" className="theme-controller" value="synthwave" onClick={handleToggle}/>
+                    <input type="checkbox" className="theme-controller" value="night" onClick={handleToggle}/>
 
                     {/* sun icon */}
                     <svg
@@ -95,7 +95,7 @@ const NavBar = () => {
 
                     {/* moon icon */}
                     <svg
-                        className="swap-on h-10 w-10 fill-current"
+                        className="swap-on h-10 w-10 fill-current text-white"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24">
                         <path
