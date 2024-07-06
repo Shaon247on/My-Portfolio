@@ -1,6 +1,4 @@
-import { useContext } from "react";
 import Title from "../../Shared/Title";
-import { ProviderContext } from "../../../Provider/Provider";
 import { LuGraduationCap } from "react-icons/lu";
 import { TbSettingsCode } from "react-icons/tb";
 
