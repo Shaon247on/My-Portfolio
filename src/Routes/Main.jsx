@@ -8,6 +8,8 @@ import Experience from "../Components/Home/Experience/Experience";
 import Contact from "../Components/Home/Contact/Contact";
 import Blogs from "../Components/Home/Blogs/Blogs";
 import WorkDetails from "../Components/Home/Work/WorkDetails";
+import Login from "../Components/Login/Login";
+import SignUp from "../Components/SignUp/SignUp";
 
   const router = createBrowserRouter([
     {
@@ -47,6 +49,14 @@ import WorkDetails from "../Components/Home/Work/WorkDetails";
             element:<WorkDetails></WorkDetails>,
             loader: ()=> fetch('/data.json')
         },
+        {
+            path: '/login',
+            element: <Login></Login>
+        },
+        {
+            path: '/signUp',
+            element: <SignUp></SignUp>
+        }
       ]
     },
   ]);
